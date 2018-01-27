@@ -15,11 +15,12 @@ public class MainActivity extends AppCompatActivity {
 
         final TextView textView  = findViewById(R.id.textView);
 
-        Button button = findViewById(R.id.button);
+        final Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 textView.setText("반가운 밍!");
+                button.setText("버튼 눌린것!");
             }
         });
 
