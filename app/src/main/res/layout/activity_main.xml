@@ -8,10 +8,19 @@
     tools:context="com.example.leewonjun.exchange.MainActivity">
 
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="환율 계산" />
+        android:background="@color/colorAccent"
+        android:text="환율 계산"
+        android:textColor="#ffffff" />
 
 </LinearLayout>
